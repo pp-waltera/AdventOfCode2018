@@ -15,6 +15,10 @@ namespace AdventConsole
             Console.WriteLine($"Day 2, part 1:\t{day2.Part1()}");
             Console.WriteLine($"Day 2, part 2:\t{day2.Part2()}");
 
+            Day3 day3 = new Day3();
+            Console.WriteLine($"Day 3, part 1:\t{day3.Part1()}");
+            Console.WriteLine($"Day 3, part 1:\t{day3.Part2()}");
+
             Console.ReadLine();
         }
     }
